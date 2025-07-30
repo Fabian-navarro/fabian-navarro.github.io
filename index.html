@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fabián Navarro Párraga — Resume</title>
+  <style>
+    :root {
+      --color-white: #695D57;
+      --color-darker-black: #DFD8D5;
+      --color-black: #E6DFDC;
+      --color-one-bg: #D0C9C6;
+      --color-grey: #B9B2AF;
+      --color-light-grey: #A09996;
+      --color-red: #B28069;
+      --color-baby-pink: #B7856E;
+      --color-green: #6C805C;
+      --color-vibrant-green: #899D79;
+      --color-blue: #5F7D9B;
+      --color-nord-blue: #5E5F65;
+      --color-purple: #A685A6;
+      --color-orange: #CC836C;
+      --color-cyan: #75998E;
+      --color-yellow: #A9A29F;
+      --color-line: #D3CCC9;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--color-black);
+      color: var(--color-white);
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    h1, h2, h3 {
+      margin-bottom: 0.5em;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: var(--color-green);
+    }
+    h2 {
+      font-size: 1.5rem;
+      color: var(--color-vibrant-green);
+      border-bottom: 2px solid var(--color-line);
+      padding-bottom: 0.25em;
+      margin-top: 2rem;
+    }
+    h3 {
+      font-size: 1.125rem;
+      color: var(--color-nord-blue);
+      margin-top: 1rem;
+    }
+    p, ul {
+      margin-bottom: 1em;
+    }
+    ul { list-style: disc inside; }
+    a { color: var(--color-vibrant-green); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .profile-pic {
+      flex: 0 0 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 2rem;
+    }
+    .profile-pic img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .contact {
+      font-size: 0.9rem;
+      color: var(--color-grey);
+      margin-top: 0.5rem;
+    }
+    .contact div { margin-top: 0.3rem; }
+
+    section { margin-bottom: 2rem; }
+    .item-title { font-weight: bold; color: var(--color-orange); }
+    .item-meta { font-style: italic; color: var(--color-grey); }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="profile-pic">
+      <img src="profile.png" alt="Fabián Navarro Párraga">
+    </div>
+    <div>
+      <h1>Fabián Navarro Párraga</h1>
+      <div class="contact">
+        <div>Vázquez de Coronado, San José</div>
+        <div>+506 8574 9453 | <a href="mailto:fabian.navarro.parraga@gmail.com">fabian.navarro.parraga@gmail.com</a></div>
+        <div><a href="https://www.linkedin.com/in/fabian-navarro-parraga-40855b241/" target="_blank">linkedin.com/in/fabian-navarro-parraga-40855b241/</a> | <a href="https://github.com/fabian-navarro" target="_blank">github.com/fabian-navarro</a></div>
+      </div>
+    </div>
+  </header>
+
+  <section id="summary">
+    <h2>Professional Summary</h2>
+    <p>Motivated computer scientist with hands-on experience in software development, eager to contribute to dynamic projects. Proficient in object-oriented programming with a focus on C++, Python, and Java. Passionate about solving complex challenges, learning and sharing knowledge. Seeking to apply and grow technical skills through real-world product development.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div>
+      <h3><span class="item-title">Software Development Intern</span> <span class="item-meta">| Indi, San José, Costa Rica</span></h3>
+      <p class="item-meta">September 2023 – October 2024</p>
+      <ul>
+        <li>Developed web applications using JavaScript and TypeScript (<em>Next.js</em>, <em>Nest.js</em>) to improve user functionality.</li>
+        <li>Contributed to both frontend and backend components in a collaborative startup environment.</li>
+        <li>Used Git for version control and participated in code reviews for high-quality code.</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3><span class="item-title">Paper Review Assistant</span> <span class="item-meta">| e-Ciencias de la Información Journal, San José, Costa Rica</span></h3>
+      <p class="item-meta">July 2021 – December 2022</p>
+      <ul>
+        <li>Managed communication between reviewers and editors, streamlining publication process.</li>
+        <li>Ensured academic submissions adhered to guidelines in collaboration with editorial team.</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3><span class="item-title">IT Department Auxiliary</span> <span class="item-meta">| Pizza Hut, San José, Costa Rica</span></h3>
+      <p class="item-meta">Dec 2015–Jan 2016 & Dec 2016–Jan 2017</p>
+      <ul>
+        <li>Conducted maintenance of hardware and network systems for smooth operations.</li>
+        <li>Provided technical support to internal teams and resolved system-related issues.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+
+    <div>
+      <h3><span class="item-title">Bachelor's Degree in Computing (Computer Science)</span></h3>
+      <p class="item-meta">Universidad de Costa Rica, 2018 – 2025</p>
+      <p><em>Courses completed; community service pending (transcript available upon request).</em></p>
+      <ul>
+        <li><strong>Analysis of Large Data Volumes:</strong> Data preprocessing, classification, clustering, advanced techniques for decision-making.</li>
+        <li><strong>Software Engineering:</strong> Developed a virtual multiplayer campus experience in Unity; experience in Agile/Scrum.</li>
+        <li><strong>Compilers:</strong> Built a transpiler from a subset of Python to C++.</li>
+        <li><strong>Programming I & II:</strong> Object-oriented development in Java and C++.</li>
+        <li><strong>Algorithm Analysis & Data Structures:</strong> Performance optimization and data management.</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3><span class="item-title">High School Diploma</span></h3>
+      <p class="item-meta">Liceo De Turrucares, 2017</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="two-col">
+      <div>
+        <h3>Programming Languages</h3>
+        <ul>
+          <li><strong>Advanced:</strong> Java, Python, C/C++, Rust, C#</li>
+          <li><strong>Intermediate:</strong> JavaScript (Next.js, Nest.js), TypeScript</li>
+          <li><strong>Basic:</strong> Haskell, Bash</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tools & Soft Skills</h3>
+        <ul>
+          <li><strong>Tools:</strong> Git, Docker, Jira, LaTeX, Unity</li>
+          <li><strong>Soft Skills:</strong> Strong collaboration and communication; proactive learner.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="additional-info">
+    <h2>Additional Information</h2>
+    <ul>
+      <li>Participant in the Mathematics Olympiad (2017).</li>
+      <li>Avid chess player and CRPG enthusiast.</li>
+      <li>Enjoys philosophy and music (vinyl record collector).</li>
+    </ul>
+  </section>
+</body>
+</html>
+
